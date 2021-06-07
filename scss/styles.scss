@@ -1,0 +1,223 @@
+body {
+  font-family: 'Orelega One', cursive;
+  letter-spacing: 0.5px;
+  background-color: #e7dfe5;
+  margin: 0;
+  padding: 0; }
+
+header {
+  background: #d1c4cf; }
+
+.header__logo {
+  text-align: center; }
+
+.header__nav{
+  background: #a48a9f;
+}
+
+nav{
+  background: #a48a9f;
+  text-transform: uppercase;
+  word-spacing: 3vw;
+  ul{
+    list-style: none;
+    text-align:center;
+    padding: 0;
+    margin: 0;
+    font-size: 25px;
+    li{
+      display: block;
+      padding: 20px;
+      :hover{
+        background: #FFFFFF;
+        transform: scale(1.10,1);
+        transition: 0.4s;
+      }
+      a{
+        text-decoration: none;
+        color:#47133d;  
+      }
+    }
+  }
+}
+
+main {
+  font-weight: lighter; }
+
+h1 {
+  color: #240A1F; }
+
+ul li {
+  list-style: circle;
+  color: black; }
+
+table {
+  border: 4px solid; }
+
+th {
+  background-color: #7b6777;
+  border: 2px solid;
+  font-size: 20px; }
+
+tr, td {
+  border: 1px solid; }
+
+footer {
+  text-align: center;
+  color: white;
+  background-image: linear-gradient(#240a1f, #47133D); }
+
+footer ul li {
+  list-style: none;
+  color: white; }
+
+.curso {
+  color: #7a2d91; }
+
+.logo {
+  height: 40vh;
+  width: 100%; }
+
+.indexMain {
+  display: flex;
+  flex-wrap: wrap; }
+
+.indexMain div {
+  flex-grow: 1;
+  border: 1px solid; }
+
+.indexContent {
+  margin: 10px 10px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  flex-direction: column; }
+
+.indexContent iframe {
+  margin: auto; }
+
+.mainTienda {
+  display: flex; }
+
+.mainTienda div {
+  flex-grow: 3;
+  border: 1px solid; }
+
+.mainTienda img {
+  margin: auto;
+  height: 200px;
+  width: 300px;
+  border: 3px solid; }
+
+.flexTienda__productos {
+  display: grid;
+  grid-template-columns: 1fr 1fr; }
+
+.flexTienda__categorias{
+ flex-grow: 1;
+ border: 1px solid; }
+
+.producto {
+  display: flex;
+  text-align: center;
+  flex-direction: column; }
+
+.servicios p, h5 {
+  color: #471323;
+  text-shadow: -2px -2px 0px white, 2px -2px 0px white, -2px 2px 0px white, 2px 2px 0px white; }
+
+.mainFooter {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 10px;
+  text-align: center; }
+
+.mainFooter div {
+  flex-wrap: wrap;
+  flex: 1; }
+
+.footer__social{
+  border: 1px solid white;
+}
+
+.footer__box{
+  border: 3px solid black;
+}
+
+.flexContact{
+  display: flex;
+  justify-content: space-around;
+}
+
+.flexContact__iframe{
+  margin: auto;
+  border: 2px solid;
+}
+
+.flexContact__form{
+  border: 1px solid;
+}
+
+
+@media (min-width: 426px) and (max-width: 1023px) {
+  main {
+    margin: 30px; }
+
+  .logo {
+    height: 30vh;
+    width: 30%; }
+
+  nav li {
+    display: inline-block;
+    padding: 10px;
+    margin: 0px; }
+
+  nav a {
+    text-decoration: none;
+    color: #47133d;
+    padding: 10px 10px; }
+
+  footer {
+    padding: 20px; } }
+@media (min-width: 1024px) {
+  main {
+    margin: 30px; }
+
+  header div {
+    text-align: left; }
+
+  .logo {
+    height: 20vh;
+    width: 20%; }
+
+  nav li {
+    display: inline-block;
+    padding: 20px;
+    margin: 0px; }
+
+  nav a {
+    text-decoration: none;
+    color: #47133d;
+    padding: 30px 25px; }
+
+  .servicios {
+    margin: 100px; }
+
+  .indexContent {
+    flex: 1;
+    margin: 10px 10px;
+    padding: 10px;
+    text-align: center; }
+
+  footer h3, p {
+    text-align: center;
+    justify-content: center; }
+
+  .mainFooter {
+    flex-direction: row;
+    margin: 10px 10px;
+    text-align: left; }
+
+  footer {
+    padding: 20px; } }
